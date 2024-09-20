@@ -15,9 +15,10 @@
 // }
 
 // Method : 2
-const solution = (str) => str.split("").reverse().join("");
+// const solution = (str) => str.split("").reverse().join("");
 
 // Other Users Method
+// const solution = (str) => [...str].reverse().join("");
 
 // Result ot debug
 console.log(solution("world"));

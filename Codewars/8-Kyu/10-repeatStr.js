@@ -21,3 +21,5 @@ const repeatStr = (n, s) => s.repeat(n);
 
 // Result ot debug
 console.log(repeatStr(5, "Hello"));
+console.log(repeatStr(3, "Hel "));
+console.log(repeatStr(6, "*"));

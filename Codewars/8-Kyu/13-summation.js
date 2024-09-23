@@ -1,7 +1,7 @@
-// Codewars 8
-// Title : String repeat
-// Instructions : Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
-// Challange Url : https://www.codewars.com/kata/57a0e5c372292dd76d000d7e
+// Codewars 13
+// Title : Grasshopper - Summation
+// Instructions : Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0. Your function only needs to return the result, what is shown between parentheses in the example below is how you reach that result and it's not part of it, see the sample tests.
+// Challange Url : https://www.codewars.com/kata/55d24f55d7dd296eb9000030
 // Level : 8kyu
 
 // Method : 1

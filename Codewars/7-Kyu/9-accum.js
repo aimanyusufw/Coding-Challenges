@@ -8,13 +8,11 @@
 // function accum(s) {
 //   const arrayString = s.split("");
 //   let resutl = [];
-
 //   for (let i = 0; i < arrayString.length; i++) {
 //     resutl.push(
 //       arrayString[i].toUpperCase() + arrayString[i].repeat(i).toLowerCase()
 //     );
 //   }
-
 //   return resutl.join("-");
 // }
 

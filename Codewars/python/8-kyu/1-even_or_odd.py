@@ -12,10 +12,12 @@
 #       return 'Odd' 
 
 # Method : 2
-def even_or_odd(n) : return "Even" if n % 2==0 else 'Odd' 
-
+# def even_or_odd(n) : return "Even" if n % 2==0 else 'Odd' 
 
 # Other Users Method
+def even_or_odd(number):
+    return ["Even", "Odd"][number % 2]
+
 
 # Log or debug
 print(even_or_odd(2))

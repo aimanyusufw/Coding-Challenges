@@ -7,12 +7,12 @@
 # Method : 1
 # def even_or_odd(number):
 #     if number % 2 == 0:
-#       return 'Odd' 
-#     else:
 #       return 'Even' 
+#     else:
+#       return 'Odd' 
 
 # Method : 2
-def even_or_odd(n) : return "Odd" if n % 2==0 else 'Even' 
+def even_or_odd(n) : return "Even" if n % 2==0 else 'Odd' 
 
 
 # Other Users Method

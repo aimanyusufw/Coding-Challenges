@@ -2,7 +2,7 @@
 # Title : Find the next square
 # Question : Complete the findNextSquare method that finds the next integral perfect square after the one passed as a parameter.
 # Challange Url : https://www.codewars.com/kata/56269eb78ad2e4ced1000013/
-# Level : 8kyu
+# Level : 7kyu
 
 # import 
 from math import sqrt

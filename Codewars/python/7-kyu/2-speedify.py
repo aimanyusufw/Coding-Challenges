@@ -2,7 +2,7 @@
 # Title : The speed of letters
 # Question : Given a string as input, return a new string with each letter pushed to the right by its respective index in the alphabet.
 # Challange Url : https://www.codewars.com/kata/5fc7caa854783c002196f2cb
-# Level : 8kyu
+# Level : 7kyu
 
 
 # Method : 1

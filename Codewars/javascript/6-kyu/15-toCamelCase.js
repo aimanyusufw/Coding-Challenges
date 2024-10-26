@@ -1,7 +1,7 @@
 // Codewars 15
-// Title :
-// Instructions :
-// Challange Url :
+// Title : Convert string to cammel case
+// Instructions : Complete the method/function so that it converts dash/underscore delimited words into camel casing.
+// Challange Url : https://www.codewars.com/kata/517abf86da9663f1d2000003
 // Level : 6kyu
 
 // Method : 1

@@ -1,7 +1,7 @@
 // Codewars 11
-// Title :
-// Question :
-// Challange Url :
+// Title : Will you make it
+// Question :   Considering these factors, write a function that tells you if it is possible to get to the pump or not.
+// Challange Url :  https://www.codewars.com/kata/5861d28f124b35723e00005e
 // Level : 8kyu
 
 // Method : 1

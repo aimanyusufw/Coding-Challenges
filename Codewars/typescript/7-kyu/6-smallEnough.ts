@@ -19,6 +19,6 @@ export const smallEnough = (a: number[], l: number): boolean =>
   !a.map((n) => (n > l ? 1 : 0)).includes(1);
 
 // Other Users Method
-export function smallEnough(a: number[], limit: number): boolean {
-  return a.every((x) => x <= limit);
-}
+// export function smallEnough(a: number[], limit: number): boolean {
+//   return a.every((x) => x <= limit);
+// }

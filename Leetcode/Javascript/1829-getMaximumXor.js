@@ -2,7 +2,7 @@
 // Title : Maximum XOR for each Query
 // Instructions :   You are given a sorted array nums of n non-negative integers and an integer maximumBit. You want to perform the following query n times:
 // Challange Url :  https://leetcode.com/problems/maximum-xor-for-each-query/
-// Level : Easy
+// Level : Medium
 
 // Method : 1
 function getMaximumXor(nums, maximumBit) {

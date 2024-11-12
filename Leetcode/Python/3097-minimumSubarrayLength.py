@@ -38,7 +38,7 @@ class Solution:
 
 # Test the method
 class Solution:
-    def minimumSubarrayLength(self, nums: list[int], k: int) -> int:
+    def minimumSubarrayLength(self, nums: list  [int], k: int) -> int:
         if k == 0:
             return 1
         

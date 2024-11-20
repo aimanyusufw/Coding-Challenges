@@ -23,4 +23,4 @@ export function solution(string) {
 // }
 
 // Other Users Method
-const solution = (string) => string.replace(/[A-Z]/g, " $&");
+// const solution = (string) => string.replace(/[A-Z]/g, " $&");

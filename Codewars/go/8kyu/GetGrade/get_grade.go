@@ -6,6 +6,7 @@ package getgrade
 // Challange Url : https://www.codewars.com/kata/55cbd4ba903825f7970000f5
 // Level : 8kyu
 
+// Method 1
 func GetGrade(score1, score2, score3 int) rune {
 	average := (score1 + score2 + score3) / 3
 
@@ -22,3 +23,23 @@ func GetGrade(score1, score2, score3 int) rune {
 		return 'F'
 	}
 }
+
+// Method 2
+
+// Other User Method
+// func GetGrade(a, b, c int) rune {
+// 	switch (a + b + c) / 30 {
+// 	case 10:
+// 		return 'A'
+// 	case 9:
+// 		return 'A'
+// 	case 8:
+// 		return 'B'
+// 	case 7:
+// 		return 'C'
+// 	case 6:
+// 		return 'D'
+// 	default:
+// 		return 'F'
+// 	}
+// }

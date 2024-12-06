@@ -1,4 +1,4 @@
-// Codewars 10
+// Codewars 9
 // Title : L1 : Set alarm
 // Question :	Write a function named setAlarm/set_alarm/set-alarm/setalarm (depending on language) which receives two parameters.
 // Challange Url :	https://www.codewars.com/kata/568dcc3c7f12767a62000038/

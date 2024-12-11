@@ -2,7 +2,7 @@
 // Title :	Find the middle element
 // Question :	 create a function that when provided with a triplet, returns the index of the numerical element that lies between the other two elements.
 // Challange Url :	https://www.codewars.com/kata/545a4c5a61aa4c6916000755/train/go
-// Level : 8kyu
+// Level : 7kyu
 
 package gimme
 

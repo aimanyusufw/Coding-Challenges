@@ -13,7 +13,7 @@ func PaperFold(ch chan<- int) {
 	p := make(chan int)
 	go PaperFold(p)
 
-	for true {
+	for {
 		ch <- <-p
 		ch <- 0
 		ch <- <-p

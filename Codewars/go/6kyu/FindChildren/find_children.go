@@ -6,40 +6,37 @@
 
 package findchildren
 
-import (
-	"sort"
-	"strings"
-)
+import "strings"
 
 // method 1
-// func FindChildren(str string) string {
-// 	splitStr := strings.Split(str, "")
-// 	n := len(splitStr)
-// 	for i := 0; i < n; i++ {
-// 		for j := 0; j < n-i-1; j++ {
-// 			if strings.EqualFold(splitStr[j], splitStr[j+1]) {
-// 				if splitStr[j] > splitStr[j+1] {
-// 					splitStr[j], splitStr[j+1] = splitStr[j+1], splitStr[j]
-// 				}
-// 			} else if strings.ToLower(splitStr[j]) > strings.ToLower(splitStr[j+1]) {
-// 				splitStr[j], splitStr[j+1] = splitStr[j+1], splitStr[j]
-// 			}
-// 		}
-// 	}
-// 	return strings.Join(splitStr, "")
-// }
-
-// method 2
 func FindChildren(str string) string {
 	splitStr := strings.Split(str, "")
-	sort.Slice(splitStr, func(i, j int) bool {
-		if strings.ToLower(splitStr[i]) == strings.ToLower(splitStr[j]) {
-			return splitStr[i] < splitStr[j]
+	n := len(splitStr)
+	for i := 0; i < n; i++ {
+		for j := 0; j < n-i-1; j++ {
+			if strings.EqualFold(splitStr[j], splitStr[j+1]) {
+				if splitStr[j] > splitStr[j+1] {
+					splitStr[j], splitStr[j+1] = splitStr[j+1], splitStr[j]
+				}
+			} else if strings.ToLower(splitStr[j]) > strings.ToLower(splitStr[j+1]) {
+				splitStr[j], splitStr[j+1] = splitStr[j+1], splitStr[j]
+			}
 		}
-		return strings.ToLower(splitStr[i]) < strings.ToLower(splitStr[j])
-	})
+	}
 	return strings.Join(splitStr, "")
 }
+
+// method 2
+// func FindChildren(str string) string {
+// 	splitStr := strings.Split(str, "")
+// 	sort.Slice(splitStr, func(i, j int) bool {
+// 		if strings.ToLower(splitStr[i]) == strings.ToLower(splitStr[j]) {
+// 			return splitStr[i] < splitStr[j]
+// 		}
+// 		return strings.ToLower(splitStr[i]) < strings.ToLower(splitStr[j])
+// 	})
+// 	return strings.Join(splitStr, "")
+// }
 
 // other user method
 // func FindChildren(dancingBrigade string) string {

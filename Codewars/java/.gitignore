@@ -1,0 +1,74 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven target directory
+/target/
+
+# Eclipse IDE files
+.project
+.classpath
+.settings/
+.metadata/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nbm/
+
+# VS Code
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows Thumbs.db files
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+~*
+
+# JRebel
+rebel.xml
+
+# Generated files
+*.generated
+
+# Coverage and test result files
+*.coverage
+*.testresults
+*.lcov
+
+# OS files
+ehthumbs.db
+Icon?
+
+# Exclude any custom configuration files
+*.env
